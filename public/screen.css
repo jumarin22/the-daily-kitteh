@@ -9,4 +9,57 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #e1f4f5;
+}
+
+h1 {
+  font-family: serif;
+  color: #4a5f73;
+  text-align: center;
+}
+
+nav {
+  background-color: #00c7dc;
+  color: #00c7dc;
+  text-align: center;
+  line-height: 2rem;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4a5f73;
+}
+
+h3 {
+  color: ##4a5f73;
+}
+
+.container {
+  display: flex;
+}
+
+.leftBox {
+  margin: 1rem;
+  width: 20rem;
+  border: thin solid #0e9bb0;
+  padding: 0.4rem;
+  max-block-size: 22rem;
+}
+
+.main {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #d8d8d8;
+  color: #d8d8d8;
+  text-align: center;
+}
+
+footer a {
+  color: black;
 }
