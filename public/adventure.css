@@ -9,6 +9,7 @@ header {
 header p {
   padding-left: 15rem;
   padding-right: 15rem;
+  padding-bottom: 1rem;
   text-align: center;
   text-transform: none;
 }
