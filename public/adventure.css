@@ -64,4 +64,14 @@ article {
   article h2 {
     line-height: 1.3rem;
   }
+
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 50rem) {
+  main {
+    display: contents;
+  }
 }
