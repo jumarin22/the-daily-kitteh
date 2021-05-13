@@ -14,6 +14,16 @@ header p {
   text-transform: none;
 }
 
+main {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    'firstleft firstleft firstright firstright'
+    'second second second second'
+    'third third third third';
+}
+
 main h2 {
   font-weight: normal;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -41,16 +51,17 @@ article {
   margin: 2rem;
 }
 
-main {
-  margin: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    'firstleft firstleft firstright firstright'
-    'second second second second'
-    'third third third third';
-}
-
 .firstleft {
   grid-area: firstleft;
+}
+
+@media only screen and (max-width: 70rem) {
+  header p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  article h2 {
+    line-height: 1.3rem;
+  }
 }
